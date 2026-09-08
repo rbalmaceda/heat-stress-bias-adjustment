@@ -34,7 +34,7 @@ micromamba create -f environment.yml
 For a more exact reproduction of the original Linux environment:
 
 ```bash
-micromamba create -n heat-stress-ba -f environment-linux-64-explicit.txt
+micromamba create -n heat-stress-ba-sesa -f environment-linux-64-explicit.txt
 ```
 
 ## Bias-adjustment methods
