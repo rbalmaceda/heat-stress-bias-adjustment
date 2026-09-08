@@ -44,7 +44,6 @@ The repository includes examples for:
 - EQM (univariate)
 - MBCr (multivariate)
 
-
 Both direct and indirect adjustment strategies are considered.
 
 ## Data availability
