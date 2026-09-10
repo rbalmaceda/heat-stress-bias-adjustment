@@ -53,7 +53,7 @@ MSWX:
 https://www.gloh2o.org/mswx/
 
 Processed MSWX and CORDEX data for the reproducibility example:
-10.5281/zenodo.22638510
+https://doi.org/10.5281/zenodo.22638510
 
 ## Citation
 
