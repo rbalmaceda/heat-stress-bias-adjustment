@@ -8,7 +8,7 @@ The analysis considers wet-bulb temperature (WBT) and simplified wet-bulb globe 
 
 The repository provides a reproducible example for one RCM simulation.
 
-Processed data required to reproduce the example are archived on **Zenodo:** [10.5281/zenodo.22638510](https://doi.org/10.5281/zenodo.22638510)
+Processed data required to reproduce the example are archived on **Zenodo:** [10.5281/zenodo.22638509](https://doi.org/10.5281/zenodo.22638509)
 
 CORDEX regional climate simulations are publicly available through the Earth System Grid Federation (ESGF). The notebook `01_example_load_data.ipynb` illustrates how the required CORDEX-CORE data can be accessed using the climate4R framework.
 
@@ -56,7 +56,7 @@ MSWX:
 https://www.gloh2o.org/mswx/
 
 Processed MSWX and CORDEX data for the reproducibility example:
-https://doi.org/10.5281/zenodo.22638510
+https://doi.org/10.5281/zenodo.22638509
 
 ## Citation
 
