@@ -18,22 +18,25 @@ CORDEX regional climate simulations are publicly available through the Earth Sys
 
 ## Software environment
 
-The analysis was performed using a Micromamba environment. Two environment specifications are provided:
+The analyses were performed using a Micromamba environment. The following files are provided to document the software configuration:
 
-- `environment.yml`: environment specification recommended for reproducing the analysis.
-- `environment-linux-64-explicit.txt`: explicit specification of the exact package versions and builds used on Linux (linux-64).
+- `environment.yml`: Conda environment specification used as the starting point for the analyses.
+- `environment-linux-64-explicit.txt`: Explicit specification of the Conda package versions and builds installed on Linux (linux-64).
+- `R_installed_packages.csv`: List of the final R package versions used in the analyses.
 
-The environment can be created with:
+The original Conda environment can be created with:
 
 ```bash
 micromamba create -f environment.yml
 ```
-
 For a more exact reproduction of the original Linux environment:
 
 ```bash
 micromamba create -n heat-stress-ba-sesa -f environment-linux-64-explicit.txt
 ```
+Some R packages were installed or updated directly within R after the Conda environment was created, as certain packages or required versions were not available through Conda. Consequently, the versions recorded in the Conda environment files may differ from those actually used in the analyses.
+
+The final R package versions are documented in `R_installed_packages.csv`, including downscaleR 3.3.2, MBC 0.10-8, and HeatStress 1.0.8.1. These versions should be installed within the activated environment to reproduce the analyses.
 
 ## Bias-adjustment methods
 
